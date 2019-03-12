@@ -1,5 +1,5 @@
 ### Introduction
-In this report, we analyzed the [time series data of weather from January 2015 to May 2017]() by conducting Principal Component Analysis and Time Series Analysis. Autoregressive integrated moving average model is applied to fit the weather attribute with different combinations of number of time lags (p), the degree of differencing (d), order of the moving-average model (q) and seasonality. The best-fitted model is selected with criteria(AIC, BIC and AICc), compared with the result of auto.ARIMA result and used to predict future 26 weeks weather.
+In this report, we analyzed the [time series data of weather from January 2015 to May 2017](https://github.com/elaine-chenma/Time-Series-Prediction/blob/master/data_week.csv) by conducting Principal Component Analysis and Time Series Analysis(Check R code [here]()). Autoregressive integrated moving average model is applied to fit the weather attributhttps://github.com/elaine-chenma/Time-Series-Prediction/blob/master/ARIMA_R.Re with different combinations of number of time lags (p), the degree of differencing (d), order of the moving-average model (q) and seasonality. The best-fitted model is selected with criteria(AIC, BIC and AICc), compared with the result of auto.ARIMA result and used to predict future 26 weeks weather.
 
 
 ### Modeling
