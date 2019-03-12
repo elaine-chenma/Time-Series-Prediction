@@ -13,7 +13,7 @@ Time series data can be decomposed using the  Autoregressive integrated moving a
 ![img](/images/Picture4.png)
 ![img](/images/Picture5.png)
 
-*(Left: Non-stationary; Right: Stationary data by differencing one time period)*
+*(Upper: Non-stationary; Lower: Stationary data by differencing one time period)*
 
 ARIMA models require the stationary of time series. Since we started off with a non-stationary time series, our first step is to ‘difference’ the time series until obtaining a stationary time series. After differencing the original time series data by one period, we achieved stationary. The level of the differenced series stays roughly constant over time, and the variance of the series appears roughly constant over time. (1)
 
